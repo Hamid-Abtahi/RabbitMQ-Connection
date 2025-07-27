@@ -19,6 +19,7 @@ It follows **best practices** such as separation of concerns and object-oriented
 3. Import the relevant classes and start producing or consuming messages.
 
 ```python
+Example:
 from connection.rabbit_connection import RabbitMQConnection
 from producer.producer import MyProducer
 from consumer.consumer import MyConsumer
