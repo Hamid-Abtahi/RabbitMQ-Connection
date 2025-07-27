@@ -20,6 +20,7 @@ It follows **best practices** such as separation of concerns and object-oriented
 
 ```python
 Example:
+
 from connection.rabbit_connection import RabbitMQConnection
 from producer.producer import MyProducer
 from consumer.consumer import MyConsumer
