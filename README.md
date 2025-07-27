@@ -11,24 +11,6 @@ It follows **best practices** such as separation of concerns and object-oriented
 - Each component is modular and adheres to the **SOLID principles**.
 - Designed with **scalability** and **maintainability** in mind.
 
-## Project Structure
-rabbitmq_connection_project/
-│
-├── config/
-│ └── rabbit_config.py # Configuration handler for RabbitMQ
-│
-├── connection/
-│ └── rabbit_connection.py # Singleton-based connection class
-│
-├── producer/
-│ └── producer.py # Separate producer class
-│
-├── consumer/
-│ └── consumer.py # Separate consumer class
-│
-└── main.py # Entry point for testing or execution
-
-
 
 ## How to Use
 
